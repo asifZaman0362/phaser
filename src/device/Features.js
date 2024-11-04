@@ -103,7 +103,7 @@ function init ()
 
     var testWebGL = function ()
     {
-        if (window['WebGLRenderingContext'])
+        /*if (window['WebGLRenderingContext'])
         {
             try
             {
@@ -131,9 +131,9 @@ function init ()
             {
                 return false;
             }
-        }
+        }*/
 
-        return false;
+        return true;
     };
 
     Features.webGL = testWebGL();
