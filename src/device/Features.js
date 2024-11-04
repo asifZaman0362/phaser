@@ -44,7 +44,7 @@ var Features = {
     stableSort: false,
     support32bit: false,
     vibration: false,
-    webGL: false,
+    webGL: true,
     worker: false
 
 };
