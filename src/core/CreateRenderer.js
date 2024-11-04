@@ -38,7 +38,7 @@ var CreateRenderer = function (game)
 
         if (config.renderType === CONST.WEBGL)
         {
-            if (!Features.webGL) { throw new Error('Cannot create WebGL context, aborting.'); }
+            //if (!Features.webGL) { throw new Error('Cannot create WebGL context, aborting.'); }
         }
         else if (config.renderType === CONST.CANVAS)
         {
